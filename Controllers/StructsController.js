@@ -5,7 +5,7 @@ exports.generateStructs = async (req, res) => {
 
     let structsFunction =
       `
-    CREATE TEMPORARY FUNCTION arr_to_input(arr ARRAY< FLOAT64 >) 
+    CREATE TEMPORARY FUNCTION your_function(arr ARRAY< FLOAT64 >) 
     RETURNS
     STRUCT<
     `
