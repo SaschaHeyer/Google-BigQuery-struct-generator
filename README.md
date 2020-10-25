@@ -11,7 +11,5 @@ Useful if you want to experiment with different embedding lengths.
 ## Usage
 Set any arbitrary length
 
-```
 https://structs.ioannotator.com/structs?length=1280
-```
 
