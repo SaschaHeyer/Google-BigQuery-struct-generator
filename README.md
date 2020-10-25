@@ -8,3 +8,10 @@ Tool insipired by https://lakshmanok.medium.com/compression-search-interpolation
 Useful if you want to experiment with different embedding lengths. 
 (Quick and dirty solution)
 
+## Usage
+Set any arbitrary length
+
+```
+https://structs.ioannotator.com/structs?length=1280
+```
+
