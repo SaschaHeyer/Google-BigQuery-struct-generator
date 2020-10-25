@@ -1,0 +1,7 @@
+steps:
+- name: gcr.io/cloud-builders/docker
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/struct-generator', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["push", "gcr.io/$PROJECT_ID/struct-generator"]
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta', 'run', 'deploy', 'struct-generator', '--image', 'gcr.io/$PROJECT_ID/struct-generator', '--region', 'us-central1', '--allow-unauthenticated', '--platform', 'managed']
