@@ -9,7 +9,7 @@ Useful if you want to experiment with different embedding lengths.
 (Quick and dirty solution)
 
 ## Usage
-Set any arbitrary length
+Set any arbitrary length (BigQuery max allowed: 1024 per routine)
 
 https://structs.ioannotator.com/structs?length=1280
 
